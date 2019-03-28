@@ -1,0 +1,20 @@
+kind: Deployment
+metadata:
+  name: radarhack-deployment
+  labels:
+    app: radarhack
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: radarhack
+  template:
+    metadata:
+      labels:
+        app: radarhack
+    spec:
+      containers:
+      - name: radarhack
+        image: docker.io/xxradar/naxsi5
+        ports:
+        - containerPort: 80
