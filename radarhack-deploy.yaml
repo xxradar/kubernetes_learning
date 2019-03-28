@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: radarhack-deployment
   labels:
-    app: radarhack-test
+    app: radarhack
 spec:
   replicas: 3
   selector:
