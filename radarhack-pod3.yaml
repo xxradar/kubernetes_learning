@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+   name: radarhack-pod3
+   labels:
+      pod: radarhack
+spec:
+  containers:
+  - name: radarhack
+    image: docker.io/xxradar/naxsi5
+    ports:
+    - containerPort: 80
