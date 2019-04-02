@@ -1,9 +1,9 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: radarhack-nodeport
+  name: my-radarhack-nodeport
   labels: 
-    svc: radarhack-nodeport
+    svc: my-radarhack-nodeport
 spec:
   selector:
     app: radarhack
