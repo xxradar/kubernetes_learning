@@ -6,4 +6,3 @@ spec:
   containers:
   - name: debug-pod
     image: busybox
- 
