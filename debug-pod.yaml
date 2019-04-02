@@ -4,6 +4,6 @@ metadata:
   name: debug-pod
 spec:
   containers:
-  - name: radarhack
-    image: docker.io/xxradar/hackon
+  - name: debug-pod
+    image: busybox
  
