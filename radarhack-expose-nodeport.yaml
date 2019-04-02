@@ -11,4 +11,3 @@ spec:
   ports:
    - port: 80
      nodePort: 31556
-
