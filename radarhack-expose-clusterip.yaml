@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: radarhack-svc
+  labels:
+    run: radarhack-svc
+spec:
+  ports:
+  - port: 80
+    protocol: TCP
+  selector:
+    run: radarhack
