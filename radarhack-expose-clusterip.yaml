@@ -3,10 +3,10 @@ kind: Service
 metadata:
   name: my-radarhack-clusterip
   labels:
-    run: radarhack
+    app: radarhack
 spec:
   ports:
   - port: 80
     protocol: TCP
   selector:
-    run: radarhack
+    app: radarhack
