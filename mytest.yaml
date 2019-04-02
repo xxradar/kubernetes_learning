@@ -1,9 +1,10 @@
+
 apiVersion: v1
 kind: Service
 metadata:
-  name: my-radarhack-clusterip2
+  name: my-radarhack-clusterip
   labels:
-    app: radarhack2
+    app: radarhack
 spec:
   ports:
   - port: 80
