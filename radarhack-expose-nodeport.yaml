@@ -9,4 +9,4 @@ spec:
   type: NodePort
   ports:
    - port: 80
-     nodePort: 6666
+     nodePort: 31556
