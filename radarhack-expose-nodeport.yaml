@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: 
   labels: radarhack-nodeport
-    app: radarhack
+    app: radarhack-nodeport
 spec:
   selector:
     app: radarhack
