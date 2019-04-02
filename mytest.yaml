@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: my-radarhack-clusterip2
   labels:
-    app: radarhack
+    app: radarhack2
 spec:
   ports:
   - port: 80
