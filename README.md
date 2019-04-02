@@ -1,7 +1,7 @@
 # kuberneteslearning
 
 radarhack-pod --> no labels<br>
-     you can label a pod via: kubectl label pods radarhack-pod pod=radarhack<br>
+     you can label a pod via: <code>kubectl label pods radarhack-pod pod=radarhack</code><br>
 radarhack-pod2 --> no labels<br>
 radarhack-pod3 --> includes a label<br>
 radarhack-pod4 --> includes a label, also includes running TCPdump container<br>
