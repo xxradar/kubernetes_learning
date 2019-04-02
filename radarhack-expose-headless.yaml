@@ -3,11 +3,11 @@ kind: Service
 metadata:
   name: my-radarhack-headless
   labels:
-    run: my-radarhack-headless
+    app: radarhack
 spec:
   clusterIP: None  
   ports:
   - port: 80
     protocol: TCP
   selector:
-    run: radarhack
+    app: radarhack
