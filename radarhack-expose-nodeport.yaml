@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: 
+  name: radarhack-nodeport
   labels: radarhack-nodeport
 spec:
   selector:
