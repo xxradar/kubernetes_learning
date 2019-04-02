@@ -8,5 +8,3 @@ radarhack-pod4 --> includes a label, also includes running TCPdump container<br>
      you can view tcpdump output:   <code>kubectl attach radarhack-pod4 -c tcpdump </code> (might need to press enter)<br>
  <br>
  <br>
- <code> kubectl run   -it  --image=busybox sh  </code>
-     
