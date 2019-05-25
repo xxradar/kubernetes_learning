@@ -1,0 +1,12 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: aviingress
+spec:
+  rules:
+  - host: demo.ns.dockersec.me
+    http:
+      paths:
+      - backend:
+          serviceName: avisvc
+          servicePort: 80
