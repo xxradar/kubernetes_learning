@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: my-radarhack-clusterip
+spec:
+  ports:
+  - port: 80
+    protocol: TCP
+  selector:
+    app: radarhack
+  externalIPs:
+    - 12.12.12.12
