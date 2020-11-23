@@ -1,12 +1,12 @@
 apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
-  name: aviingress
+  name: radarhack-ingress
 spec:
   rules:
   - host: demo.ns.dockersec.me
     http:
       paths:
       - backend:
-          serviceName: avisvc
+          serviceName: my-radarhack-clusterip
           servicePort: 80
