@@ -1,1 +1,22 @@
-
+apiVersion: v1
+kind: Pod
+metadata:
+   name: radarhack-pod3
+   labels:
+      pod: radarhack
+spec:
+  containers:
+  - name: radarhack
+    image: docker.io/xxradar/naxsi5
+    ports:
+    - containerPort: 80
+    livenessProbe:
+      httpGet:
+        host: www.radarhack.com
+        path: /index.html
+        port: 8080
+        httpHeaders:
+        - name: Custom-Header
+          value: Awesome
+      initialDelaySeconds: 3
+      periodSeconds: 3
