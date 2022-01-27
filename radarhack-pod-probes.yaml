@@ -13,7 +13,7 @@ spec:
     livenessProbe:
       httpGet:
         host: www.radarhack.com
-        path: /index.html
+        path: /index.html?test=true
         port: 8080
         httpHeaders:
         - name: Custom-Header
